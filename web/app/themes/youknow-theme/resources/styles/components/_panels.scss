@@ -1,0 +1,426 @@
+.dlh-panel > .panel-heading {
+  color: inherit;
+  font-weight: 600;
+  padding: 10px 4px;
+  transition: all .3s;
+  border: 1px solid transparent;
+}
+
+.dlh-panel .dlh-built.panel-heading {
+    border-bottom: none;
+}
+
+.dlh-panel > .panel-footer, 
+.dlh-panel > .panel-section {
+  color: inherit;
+  border: 1px solid $border-color;
+  border-top: none;
+  font-size: 90%;
+  background: $color-bright;
+  padding: 10px 15px;
+}
+
+.panel-heading.dlh-colored {
+  color: #fff;
+}
+
+.panel-heading.dlh-colored.hblue {
+  background-color: $att-default-blue;
+}
+
+.panel-heading.dlh-colored.hnavyblue {
+  background-color: $att-blue;
+}
+
+.panel-heading.dlh-colored.hgreen {
+  background-color: $att-green;
+}
+
+.panel-heading.dlh-colored .panel-tools a {
+  color: #fff;
+}
+
+.dlh-panel.panel-collapse > .panel-heading, 
+.dlh-panel .dlh-built {
+  background: #fff;
+  border-color: $border-color;
+  border: 1px solid $border-color;
+  padding: 10px 10px;
+  border-radius: 2px;
+}
+
+.dlh-panel.panel-collapse .dlh-colored,
+.dlh-panel.panel-collapse .dlh-colored .panel-tools a {
+  color: $text-color;
+}
+
+.dlh-panel .panel-body {
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+}
+
+.dlh-panel.panel-group .panel-body:first-child {
+  border-top: 1px solid $border-color;
+}
+
+.dlh-panel.panel-group .panel-body {
+  border-top: none;
+}
+
+.panel-collapse .panel-body {
+  border: none;
+}
+
+.dlh-panel {
+  background-color: none;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 25px;
+}
+
+.panel-tools {
+  display: inline-block;
+  float: right;
+  margin-top: 0;
+  padding: 0;
+  position: relative;
+}
+
+.dlh-panel .alert {
+  margin-bottom: 0;
+  border-radius: 0;
+  border: 1px solid $border-color;
+  border-bottom: none;
+}
+
+.panel-tools a {
+  margin-left: 5px;
+  color: lighten($text-color, 20%);
+  cursor: pointer;
+}
+
+.dlh-panel.hgreen .panel-body {
+  border-top: 2px solid $att-green;
+}
+
+.dlh-panel.hblue .panel-body {
+  border-top: 2px solid $att-default-blue;
+}
+
+.dlh-panel.hyellow .panel-body {
+  border-top: 2px solid $att-yellow;
+}
+
+.dlh-panel.hviolet .panel-body {
+  border-top: 2px solid $att-purple;
+}
+
+.dlh-panel.horange .panel-body {
+  border-top: 2px solid $att-orange;
+}
+
+.dlh-panel.hred .panel-body {
+  border-top: 2px solid $att-red;
+}
+
+.dlh-panel.hreddeep .panel-body {
+  border-top: 2px solid $att-red;
+}
+
+.dlh-panel.hnavyblue .panel-body {
+  border-top: 2px solid $att-blue;
+}
+
+.dlh-panel.hbggreen .panel-body {
+  background: $att-green;
+  color: #fff;
+  border:none;
+}
+
+.dlh-panel.hbgblue .panel-body {
+  background: $att-default-blue;
+  color: #fff;
+  border:none;
+}
+
+.dlh-panel.hbgyellow .panel-body {
+  background: $att-yellow;
+  color: #fff;
+  border:none;
+}
+
+.dlh-panel.hbgviolet .panel-body {
+  background: $att-purple;
+  color: #fff;
+  border:none;
+}
+
+.dlh-panel.hbgorange .panel-body {
+  background: $att-orange;
+  color: #fff;
+  border:none;
+}
+
+.dlh-panel.hbgred .panel-body {
+  background: $att-red;
+  color: #fff;
+  border:none;
+}
+
+.dlh-panel.hbgreddeep .panel-body {
+  background: $att-red;
+  color: #fff;
+  border:none;
+}
+
+.dlh-panel.hbgnavyblue .panel-body {
+  background: $att-blue;
+  color: #fff;
+  border:none;
+}
+
+.panel-group .panel-heading {
+  background-color: $color-bright;
+}
+
+.small-header .dlh-panel {
+  margin-bottom: 0;
+}
+
+.small-header {
+  padding: 0 !important;
+}
+
+.small-header .panel-body {
+  padding: 15px 25px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-radius: 0;
+  //  background: $color-bright;
+}
+
+.panel-body h5, .panel-body h4 {
+  font-weight: 600;
+}
+
+.small-header .panel-body h2 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+}
+
+.small-header .panel-body small {
+  color: lighten($text-color, 10%);
+}
+
+.dlh-breadcrumb {
+  padding: 2px 0px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  list-style: none;
+  background-color: #fff;
+  font-size: 11px;
+
+  > li {
+    display: inline-block;
+
+    + li:before {
+      padding: 0 5px;
+      color: $att-blue;
+    }
+  }
+
+  > .active {
+    color: lighten($text-color,20%);
+  }
+}
+
+.wrapper {
+  padding: 10px 20px;
+}
+
+.dlh-panel.collapsed .panel-body, 
+.dlh-panel.collapsed .panel-footer {
+  display: none;
+}
+
+.dlh-panel.collapsed .fa.fa-chevron-up:before {
+  content: "\f078";
+}
+.dlh-panel.collapsed .fa.fa-chevron-down:before {
+  content: "\f077";
+}
+
+.dlh-panel.collapsed.panel-collapse .panel-body {
+  border-width: 0 1px 1px 1px;
+  border-color: $border-color;
+  border-style: solid;
+}
+
+.dlh-panel.collapsed .dlh-built.panel-heading {
+  border-bottom: 1px solid $border-color;
+}
+
+body.fullscreen-panel-mode {
+  overflow-y: hidden;
+}
+
+.dlh-panel.fullscreen {
+  z-index: 2030;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  margin-bottom: 0;
+}
+
+.dlh-panel.fullscreen .showhide {
+  display: none;
+}
+
+.dlh-panel.fullscreen .panel-body {
+  min-height: calc(100% - 77px);
+}
+
+.panel-title {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+.dlh-panel-heading-btn {
+  padding: 10px 30px;
+  margin-top: -10px;
+  margin-right: -10px;
+  border-left: 1px solid $border-color;
+  background-color: transparent;
+}
+
+.dlh-panel-heading-btn:hover {
+  background-color: $color-bright;
+}
+
+.fullpanel {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1070;
+  overflow-x: scroll;
+  transition: all 2s;
+}
+
+.transition {
+  transition: all 0.5s;
+}
+
+.normalheader  .dlh-panel {
+  margin-bottom: 0;
+}
+
+.normalheader {
+  min-width: 320px;
+  padding: 40px 40px 0px 40px;
+}
+
+@media(max-width: 768px) {
+
+  .normalheader {
+    padding: 15px 15px 0px 15px;
+  }
+
+}
+
+.normalheader h2 {
+  margin-top: 0px;
+}
+
+.dlh-panel-with-image.panel-collapse .panel-heading,
+.dlh-panel-with-image .panel-heading, {
+  padding:0;
+  margin:0;
+}
+
+.dlh-panel-with-image .panel-heading-title {
+  line-height: 85px;
+}
+
+.dlh-panel-with-image .panel-heading-image {
+   display: block;
+   float: left;
+   position: relative;
+   overflow: hidden;
+   max-width: 85px;
+   width: 100%;
+   margin-right: 15px;
+}
+
+.dlh-panel-with-image .panel-heading-image .spacer {
+  width: 100%;
+  height: auto;
+}
+
+.dlh-panel-with-image .panel-heading-image .sprite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: none;
+  max-height: 100%;
+  width: initial;
+}
+
+.dlh-panel-with-image .panel-heading-image .sprite.s2 {
+  left: -100%;
+}
+
+.dlh-panel-with-image .panel-heading-image .sprite.s3 {
+  left: -200%;
+}
+
+.dlh-panel-with-image .panel-heading-image .sprite.s4 {
+  left: -300%;
+}
+
+.dlh-panel-with-image .panel-heading-image .sprite.s5 {
+  left: -400%;
+}
+
+.dlh-panel-with-image .panel-heading-image .sprite.s6 {
+  left: -500%;
+}
+
+.dlh-panel-with-image .panel-heading-image .sprite.s7 {
+  left: -600%;
+}
+
+.dlh-panel-with-image .panel-heading-image .sprite.s8 {
+  left: -700%;
+}
+
+.dlh-panel-with-image .panel-heading-image .sprite.s9 {
+  left: -800%;
+}
+
+.dlh-panel-with-image .panel-heading-image .sprite.s10 {
+  left: -900%;
+}
+
+.dlh-panel-with-image .panel-heading-image .sprite.s11 {
+  left: -1000%;
+}
+
+.dlh-panel-with-image .panel-heading-image .sprite.s12 {
+  left: -1100%;
+}
+
+.dlh-panel-no-mb {
+  margin-bottom: 0 !important;
+}

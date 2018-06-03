@@ -1,0 +1,63 @@
+
+.text-display-lines {
+  line-height: 1.1;
+}
+
+.text-display-lines span,
+.text-display-lines p,
+.text-display-lines h1,
+.text-display-lines h2,
+.text-display-lines h3,
+.text-display-lines h4,
+.text-display-lines h5,
+.text-display-lines h6 {
+  position: relative;
+}
+
+.text-display-lines span:before,
+.text-display-lines p:before,
+.text-display-lines h1:before,
+.text-display-lines h2:before,
+.text-display-lines h3:before,
+.text-display-lines h4:before,
+.text-display-lines h5:before,
+.text-display-lines h6:before,
+.text-display-lines span:after,
+.text-display-lines p:after,
+.text-display-lines h1:after,
+.text-display-lines h2:after,
+.text-display-lines h3:after,
+.text-display-lines h4:after,
+.text-display-lines h5:after,
+.text-display-lines h6:after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: #ff00cc;
+}
+
+.text-display-lines span:before,
+.text-display-lines p:before,
+.text-display-lines h1:before,
+.text-display-lines h2:before,
+.text-display-lines h3:before,
+.text-display-lines h4:before,
+.text-display-lines h5:before,
+.text-display-lines h6:before {
+  top: 0;
+}
+
+.text-display-lines span:after,
+.text-display-lines p:after,
+.text-display-lines h1:after,
+.text-display-lines h2:after,
+.text-display-lines h3:after,
+.text-display-lines h4:after,
+.text-display-lines h5:after,
+.text-display-lines h6:after {
+  bottom: 0;
+}
+
+

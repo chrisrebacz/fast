@@ -1,0 +1,108 @@
+#header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $att-black;
+  height: 60px;
+}
+
+#mainlogo, #mainlogo img {
+  height: 60px;
+}
+
+.toolbar-button {
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 60px;
+  background-color: transparent;
+}
+
+.toolbar-button .header-toggle {
+  width: 60px;
+  height: 100%;
+  padding: 1em;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  transition: all 0.2s ease-in;
+}
+
+.toolbar-button:hover .header-toggle {
+  color: #eaeaea;
+  height: 105%;
+}
+
+.toolbar-button:active {
+  background-color: $att-blue;
+}
+
+
+
+.searchbar-collapse {
+  background-color: $att-dark-gray;
+  color: #fff;
+  height: 130px;
+  transition: all 0.5s;
+}
+
+@media (max-width: 767px) {
+  .searchbar-collapse {
+    height: 520px;
+    padding: 1em;
+  }
+}
+.searchbar-collapse .navbar-form {
+  display: block;
+  margin: 0 auto;
+  opacity: 1;
+  transition: opacity 0.1s ease-in;
+  transition-delay: 0.5s;
+}
+.searchbar-collapse .navbar-form .input-group-btn {
+  width: 39px;
+}
+.searchbar-collapse.collapsed,
+.searchbar-collapse.collapsed .navbar-form  {
+  height: 0px;
+  overflow: hidden;
+  padding: 0;
+  opacity: 0;
+}
+
+.dock-nav:hover,
+.dock-nav.active,
+.dock-nav.active:hover {
+  background-color: #3aa5dc;
+  color: #fff;
+  border-color: #3aa5dc;
+  text-shadow: none;
+}
+
+.dock-nav.active:after {
+  font-family: 'FontAwesome';
+  display: inline-block;
+  font-size: 200%;
+  margin-left: .618em;
+  font-weight: normal;
+  line-height: 1em;
+  width: 1em;
+  text-align: right;
+  content: '\f0D7';
+  margin: 0;
+  width: 20px;
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  margin-left: -10px;
+  color: #3aa5dc;
+}
+
+@media (max-width: 450px) {
+  .dock-nav {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

@@ -1,0 +1,50 @@
+.page-404 {
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.page-404 .number {
+  position: relative;
+  top: 35px;
+  display: inline-block;
+  letter-spacing: -10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  line-height: 128px;
+  font-size: 128px;
+  font-weight: 300;
+  color: $att-default-blue;
+  text-align: right;
+}
+
+.page-404 .details {
+  display: inline-block;
+  padding-top: 0px;
+  text-align: center;
+}
+
+/* 404 page option #2*/
+.page-404-full-page {
+  overflow-x: hidden;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fafafa !important;
+}
+
+.page-404-full-page .details input {
+  background-color: #ffffff;
+}
+
+.page-404 h3 {
+  padding-right: 0;
+  color: #121619;
+}
+
+.page-404-full-page .page-404 {
+  margin-top: 100px;
+}
+
+.max-width-400 {
+  max-width: 400px;
+}

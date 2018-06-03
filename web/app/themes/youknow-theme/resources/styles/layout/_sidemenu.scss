@@ -1,0 +1,126 @@
+#sidemenu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 0;
+  min-height: 100%;
+  background-color: $att-light-gray;
+  color: $att-digital-text;
+}
+
+#sidemenu-container.active {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  width: 260px;
+}
+
+#youknowLogo {
+    height: 175px;
+}
+
+.sidenav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidenav li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.sidenav li.current-menu-item > a {
+  background-color: $att-default-blue;
+  color: #eaeaea;
+}
+
+.sidenav a {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  position: relative;
+  z-index: 1;
+  display: block;
+  padding: 0 10px 0 28px;
+  min-height: 46px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 46px;
+  text-decoration: none;
+}
+
+.sidenav a:hover {
+  background-color: $att-default-blue;
+  color: #eaeaea;
+}
+
+.sidenav a:focus {
+    background-color: $att-blue;
+    color: #eaeaea;
+}
+
+.sidenav ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.sidenav ul li {
+  list-style: none;
+}
+
+.sidenav ul li a {
+  padding: 0 10px 0 38px;
+}
+
+.sidenav-child-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  width: 46px;
+  height: 46px;
+  color: #6b6b6b;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 46px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+.menu-item-has-children a:hover ~ .sidenav-child-container {
+  color: #eaeaea;
+}
+
+
+/*
+.sidenav-child-container:hover {
+    background: #fb9537;
+    color: #fff;
+}
+*/
+.sidenav .menu-item-has-children a.active {
+  background: #fb9537;
+  color: #fff;
+}
+
+.sidenav-child-container.active {
+  background: transparent;
+  color: #fff;
+}
+
+.sidenav-child-trigger {
+  display: inline-block;
+}

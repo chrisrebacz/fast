@@ -1,0 +1,36 @@
+.wp-pagenavi {
+  clear: both;
+  padding-top: 30px;
+  /* Shawn */
+  padding-bottom: 30px;
+  /* Shawn */
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+  text-decoration: none;
+  border: 1px solid #BFBFBF;
+  padding: 8px 12px;
+  /* was 3px 5px */
+  margin: 2px;
+}
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+  color: #fff;
+  background-color: #067ab4;
+  /* Shawn */
+  border-color: #067ab4;
+  /* was #000 */
+  cursor: default;
+  /* Shawn */
+  text-decoration: none;
+  /* Shawn */
+}
+
+.wp-pagenavi span.current {
+  font-weight: bold;
+}
+
+.pages {
+  display: none;
+  /* To hide the pages text within pagination */
+}

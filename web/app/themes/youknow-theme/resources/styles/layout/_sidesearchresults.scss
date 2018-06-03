@@ -1,0 +1,126 @@
+#sidebar-right-container {
+    width: 400px;
+    transform: translateX(100%);
+    background-color: #ebeef0;
+    position: fixed;
+    z-index: 20;
+    right: 0px;
+    top: 0px;
+    min-height: 100%;
+    transition: all 0.4s ease-in;
+    box-shadow: 1px 4px 10px rgba(0,0,0,0.5);
+    overflow-y: scroll;
+}
+
+body.admin-bar #sidebar-right-container {
+    top: 32px;
+}
+
+@media screen and ( max-width: 782px ) {
+    body.admin-bar #sidebar-right-container {
+        top: 46px;
+    }
+}
+
+#sidebar-right-container.active {
+    transform: translateX(0px);
+}
+
+#sidebar-right {
+    position: relative;
+}
+
+
+#sidebar-right .form-group {
+    position: relative;
+}
+
+#sidebar-right .fa-close {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    cursor: pointer;
+}
+
+#sidebar-right-header {
+    height: 60px;
+    background-color: $att-default-blue;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sidebar-right-header .sidebar-right-header-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 1.5rem;
+}
+
+.off-canvas-menu-right-close {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-wrapper {
+    position: absolute;
+    top: 60px;
+    right: 400px;
+    width: 400px;
+}
+
+.bookmark-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+    z-index: 21;
+    overflow: hidden;
+    border-left: 1px solid #aaa;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.3s cubic-bezier(0, 1, 0.7, 1) 0s;
+    -moz-transition: all 0.3s cubic-bezier(0, 1, 0.7, 1) 0s;
+    -ms-transition: all 0.3s cubic-bezier(0, 1, 0.7, 1) 0s;
+    -o-transition: all 0.3s cubic-bezier(0, 1, 0.7, 1) 0s;
+    transition: all 0.3s cubic-bezier(0, 1, 0.7, 1) 0s;
+}
+
+
+.tco-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    padding-bottom: 20px;
+}
+
+.lighthouse_bookmark {
+    display: flex;
+    width: 100%;
+    min-height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+}
+
+
+
+.lighthouse_bookmark:hover {
+    background-color: #ebeef0;
+}
+
+.lighthouse_bookmark_link {
+    flex: 1;
+}
+

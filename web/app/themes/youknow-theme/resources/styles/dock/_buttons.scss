@@ -1,0 +1,60 @@
+.btn {
+  text-transform: uppercase;
+  line-height: 1.43;
+}
+
+.btn-info {
+  background-color: #3aa5dc !important;
+}
+
+/* start video, ref, and news buttons */
+.btn-circle-floating, a.videos, a.reference, a.news, a.default {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px !important;
+  padding: 0;
+  font-size: 17px;
+  display: table-cell;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  -webkit-transition: -webkit-box-shadow 0.15s ease-out;
+  -moz-transition: -moz-box-shadow 0.15s ease-out;
+  -o-transition: -o-box-shadow 0.15s ease-out;
+  transition: box-shadow 0.15s ease-out;
+}
+
+a.videos {
+  background-color: #b8509e;
+}
+a.videos:hover {
+  background-color: #81017e;
+}
+
+a.reference {
+  background-color: #c4d82d;
+}
+a.reference:hover {
+  background-color: #6ebb1f;
+}
+
+a.news {
+  background-color: #ff9900;
+}
+a.news:hover {
+  background-color: #ff7200;
+}
+
+a.default {
+  background-color: #f3f3f3;
+  outline: none !important;
+}
+a.default:hover {
+  background-color: #cdcfd0;
+}
+
+/* end video, ref, and news buttons */
+/* starts the categories / tags card buttons */
+.tags a {
+  color: #fff;
+  text-decoration: none;
+}

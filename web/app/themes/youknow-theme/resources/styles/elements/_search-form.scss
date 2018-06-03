@@ -1,0 +1,20 @@
+.primary-search {
+    max-width: 700px;
+    margin: 2em auto;
+}
+
+.input-group-lg .input-group-btn button {
+    border-radius: 0 !important;
+}
+
+.dropdown-menu > li > a {
+    font-weight: 500;
+    color: $text-color;
+}
+
+.category-filter-actions {
+    margin-bottom: 1em;
+}
+.category-filter-actions-right {
+    text-align: right;
+}

@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+vendor
+web/app/plugins/youknow-foundation/vendor
+web/app/themes/youknow-theme/node_modules
+web/app/uploads

@@ -1,0 +1,15 @@
+{
+    "name": "att/youknow-theme",
+    "description": "Theme for YouKnow",
+    "autoload": {
+        "files": [
+            "helpers/formatting.php",
+            "helpers/frontpage.php",
+            "helpers/theme.php",
+            "helpers/user.php"
+        ],
+        "psr-4": {
+            "YouKnow\\": "app/"
+        }
+    }
+}

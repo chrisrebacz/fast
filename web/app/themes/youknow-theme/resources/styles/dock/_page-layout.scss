@@ -1,0 +1,111 @@
+.page-title {
+  margin-bottom: 20px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.page-title h1 {
+  margin-top: 0px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.dock-date-title, .dock-type {
+  padding-bottom: 20px;
+  margin-top: 0;
+}
+
+.dock-date-title, .dock-type, .dock-subtitle-separator {
+  color: #ff7200;
+}
+
+.dock-article-subtitle {
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.single-article {
+  width: 100%;
+}
+
+.single-article-content {
+  padding: 16px;
+  /* was 10px - Shawn*/
+}
+
+#desktop-search-container {
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+}
+
+#desktop-search-container h4 {
+  background-color: #3aa5dc;
+  display: block;
+  padding: 10px;
+  margin-top: 0;
+  color: #f3f3f3;
+  font-weight: normal;
+}
+
+#dock-desktop-search-form {
+  padding: 10px;
+}
+
+
+
+/*
+| DOCK Update Badge
+*/
+.dock-date-badge {
+  background-color: green;
+  /* define a color of green? */
+  border-radius: 4px;
+  margin-left: 14px;
+  color: #fff;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+}
+
+  .page-title, .page-title h1 {
+    text-align: left;
+  }
+
+  .page-title {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  .page-title-right {
+    margin-left: inherit;
+    margin-top: 40px;
+    max-width: 300px;
+  }
+
+  p, li {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  p, ol, ul {
+    margin-bottom: 22px;
+  }
+
+  .field_alert_title {
+    margin: -8px -16px 0 -16px;
+    margin-bottom: 5px;
+  }
+
+  .success_alert_title {
+    margin: -7px -16px 5px -16px;
+  }
+
+  .card p, .card li {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

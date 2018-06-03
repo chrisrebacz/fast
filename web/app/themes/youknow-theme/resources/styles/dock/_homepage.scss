@@ -1,0 +1,301 @@
+#homeSearchContainer {
+  padding: 15px;
+}
+
+#homeSearchContainer .btn.btn-lg, #homeSearchContainer .btn-group-lg > .btn {
+  line-height: 1.35;
+}
+
+#homeImg {
+  margin-top: -16px;
+}
+
+.dock-nav-group, #bookmarkListCard {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.dock-nav {
+  border-color: #3aa5dc;
+  background-color: #fff;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.dock-nav:hover,
+.dock-nav.active,
+.dock-nav.active:hover {
+  background-color: #3aa5dc;
+  color: #fff;
+  border-color: #3aa5dc;
+  text-shadow: none;
+}
+
+.dock-nav.active:after {
+  font-family: 'FontAwesome';
+  display: inline-block;
+  font-size: 200%;
+  margin-left: .618em;
+  font-weight: normal;
+  line-height: 1em;
+  width: 1em;
+  text-align: right;
+  content: '\f0D7';
+  margin: 0;
+  width: 20px;
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  margin-left: -10px;
+  color: #3aa5dc;
+}
+
+@media (max-width: 450px) {
+  .dock-nav {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.cadie-category {
+  color: #FFAE00;
+  font-size: 12px;
+}
+
+.cadie-p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.cadie-alert small {
+  opacity: 1 !important;
+}
+
+.cadie-p strong {
+  color: #067ab4;
+}
+
+.panel-default {
+  border-color: #ddd;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  z-index: 2;
+  color: #fff;
+  background-color: #f8a531;
+  border-color: #f8a531;
+  font-size: 16px;
+}
+
+.cp-fa-stack {
+  position: relative;
+  display: inline-block;
+  line-height: 1.5em;
+  font-weight: normal;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.cp-item a {
+  text-decoration: none;
+}
+
+.cp-item:hover {
+  background: #86BC25;
+}
+
+.cp-item {
+  padding: 5px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cp-item .dockicon, .cp-item .fa {
+  font-size: 28px;
+}
+
+.round-corners-right {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #4CA90C;
+}
+
+.round-corners-left {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #4CA90C;
+}
+
+.round-corners {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #4CA90C;
+}
+
+/* -------  End Communications Plan --------- */
+.dock-category-card {
+  width: 98px;
+  margin: 10px auto;
+  min-height: 156px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dock-category-card:hover .card-image {
+  opacity: .7;
+}
+
+.dock-category-card:hover .card-content {
+  color: #067ab4;
+  font-weight: bold;
+}
+
+/* -------------   Sprites   -------------- */
+/*Set the max-width to the width of individual sprites:*/
+.card-image {
+  display: block;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  max-width: 160px;
+  width: 100%;
+}
+
+.card-image .spacer {
+  width: 100%;
+  height: auto;
+}
+
+.card-image .sprite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: none;
+  max-height: 100%;
+  width: initial;
+}
+
+.card-image .sprite.s2 {
+  left: -100%;
+}
+
+.card-image .sprite.s3 {
+  left: -200%;
+}
+
+.card-image .sprite.s4 {
+  left: -300%;
+}
+
+.card-image .sprite.s5 {
+  left: -400%;
+}
+
+.card-image .sprite.s6 {
+  left: -500%;
+}
+
+.card-image .sprite.s7 {
+  left: -600%;
+}
+
+.card-image .sprite.s8 {
+  left: -700%;
+}
+
+.card-image .sprite.s9 {
+  left: -800%;
+}
+
+.card-image .sprite.s10 {
+  left: -900%;
+}
+
+.card-image .sprite.s11 {
+  left: -1000%;
+}
+
+.card-image .sprite.s12 {
+  left: -1100%;
+}
+
+.card-image .sprite.s13 {
+  left: -1200%;
+}
+
+.card-image .sprite.s14 {
+  left: -1300%;
+}
+
+.card-image.no-limit {
+  max-width: none;
+}
+
+/*you can also set this to a pixel size, for example 320px, to limit the maximum*/
+.card-image.no-limit .sprite {
+  min-height: 100%;
+}
+
+.card .card-content {
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 0 0 2px 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  width: 100%;
+}
+
+/* ------------  Sprites End  ------------- */
+/* ------------- Flex Box Start ----------- */
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: #fff;
+  width: 100px;
+  margin-top: 10px;
+  border: solid 1px #cacaca;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.flex-item:hover, .flex-item:hover .card-content {
+  background: #F5F5F5;
+}
+
+.flex-item:hover .card-image {
+  opacity: 0.7;
+}
+
+
+.dropdown-menu-right {
+  left: auto !important;
+  right: 0;
+}
+
+.homepage_banner {
+  margin: 15px auto;
+}
+
+.homepage_banner img {
+  display: block;
+  margin: 0 auto;
+}

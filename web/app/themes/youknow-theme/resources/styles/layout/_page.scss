@@ -1,0 +1,66 @@
+html {
+    min-height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+body.increase-height,
+.increase-height #sidemenu-container.active,
+.increase-height #content-container {
+  padding-bottom: 500px;
+}
+
+#sidemenu-container.active,
+#content-container {
+  height: 100%;
+  min-height: 100%;
+}
+
+#content {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-container {
+  /*display: none;*/
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  margin: 0;
+  min-height: 100%;
+  background-color: $body-bg;
+  /* was #E5E6E6 - Shawn */
+}
+
+.dlh-article-title {
+  position: relative;
+  padding-right: 60px;
+}
+
+.fragment-identifier {
+  color: #cbd3dd;
+  display: block;
+  font-size: 19px;
+  border: 1px solid #cbd3dd;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  right: 0;
+  border-radius: 3px;
+  top: 0;
+  outline: 0;
+  -webkit-transition: color .3s ease,border-color .3s ease;
+  -moz-transition: color .3s ease,border-color .3s ease;
+  -ms-transition: color .3s ease,border-color .3s ease;
+  -o-transition: color .3s ease,border-color .3s ease;
+  transition: color .3s ease,border-color .3s ease;
+}
+

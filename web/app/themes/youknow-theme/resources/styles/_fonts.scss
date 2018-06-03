@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/*
+ * Aleck Sans
+ */
+@font-face {
+  font-family: 'Aleck';
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_Rg.eot');
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_Rg.eot?#iefix') format('embedded-opentype'), url('../fonts/ATTAleckSans_Web/WOFF2/ATTAleckSans_W_Rg.woff2') format('woff'), url('../fonts/ATTAleckSans_Web/WOFF/ATTAleckSans_W_Rg.woff') format('woff'), url('../fonts/ATTAleckSans_Web/TTF/ATTAleckSans_W_Rg.ttf') format('truetype'), url('../fonts/ATTAleckSans_Web/SVG/ATTAleckSans_W_Rg.svg#icon') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleck';
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_Th.eot');
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_Th.eot?#iefix') format('embedded-opentype'), url('../fonts/ATTAleckSans_Web/WOFF2/ATTAleckSans_W_Th.woff2') format('woff'), url('../fonts/ATTAleckSans_Web/WOFF/ATTAleckSans_W_Th.woff') format('woff'), url('../fonts/ATTAleckSans_Web/TTF/ATTAleckSans_W_Th.ttf') format('truetype'), url('../fonts/ATTAleckSans_Web/SVG/ATTAleckSans_W_Th.svg#icon') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleck';
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_It.eot');
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_It.eot?#iefix') format('embedded-opentype'), url('../fonts/ATTAleckSans_Web/WOFF2/ATTAleckSans_W_It.woff2') format('woff'), url('../fonts/ATTAleckSans_Web/WOFF/ATTAleckSans_W_It.woff') format('woff'), url('../fonts/ATTAleckSans_Web/TTF/ATTAleckSans_W_It.ttf') format('truetype'), url('../fonts/ATTAleckSans_Web/SVG/ATTAleckSans_W_It.svg#icon') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Aleck';
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_Bd.eot');
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_Bd.eot?#iefix') format('embedded-opentype'), url('../fonts/ATTAleckSans_Web/WOFF2/ATTAleckSans_W_Bd.woff2') format('woff'), url('../fonts/ATTAleckSans_Web/WOFF/ATTAleckSans_W_Bd.woff') format('woff'), url('../fonts/ATTAleckSans_Web/TTF/ATTAleckSans_W_Bd.ttf') format('truetype'), url('../fonts/ATTAleckSans_Web/SVG/ATTAleckSans_W_Bd.svg#icon') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleck';
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_Blk.eot');
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_Blk.eot?#iefix') format('embedded-opentype'), url('../fonts/ATTAleckSans_Web/WOFF2/ATTAleckSans_W_Blk.woff2') format('woff'), url('../fonts/ATTAleckSans_Web/WOFF/ATTAleckSans_W_Blk.woff') format('woff'), url('../fonts/ATTAleckSans_Web/TTF/ATTAleckSans_W_Blk.ttf') format('truetype'), url('../fonts/ATTAleckSans_Web/SVG/ATTAleckSans_W_Blk.svg#icon') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleck';
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_Md.eot');
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_Md.eot?#iefix') format('embedded-opentype'), url('../fonts/ATTAleckSans_web/WOFF2/ATTAleckSans_W_Md.woff2') format('woff'), url('../fonts/ATTAleckSans_web/WOFF/ATTAleckSans_W_Md.woff') format('woff'), url('../fonts/ATTAleckSans_web/TTF/ATTAleckSans_W_Md.ttf') format('truetype'), url('../fonts/ATTAleckSans_web/SVG/ATTAleckSans_W_Md.svg#icon') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleck';
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_Lt.eot');
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_Lt.eot?#iefix') format('embedded-opentype'), url('../fonts/ATTAleckSans_Web/WOFF2/ATTAleckSans_W_Lt.woff2') format('woff'), url('../fonts/ATTAleckSans_Web/WOFF/ATTAleckSans_W_Lt.woff') format('woff'), url('../fonts/ATTAleckSans_Web/TTF/ATTAleckSans_W_Lt.ttf') format('truetype'), url('../fonts/ATTAleckSans_Web/SVG/ATTAleckSans_W_Lt.svg#icon') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleck';
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_LtIt.eot');
+  src: url('../fonts/ATTAleckSans_Web/EOT/ATTAleckSans_W_LtIt.eot?#iefix') format('embedded-opentype'), url('../fonts/ATTAleckSans_Web/WOFF2/ATTAleckSans_W_LtIt.woff2') format('woff'), url('../fonts/ATTAleckSans_Web/WOFF/ATTAleckSans_W_LtIt.woff') format('woff'), url('../fonts/ATTAleckSans_Web/TTF/ATTAleckSans_W_LtIt.ttf') format('truetype'), url('../fonts/ATTAleckSans_Web/SVG/ATTAleckSans_W_LtIt.svg#icon') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AleckSlab';
+  src: url('../fonts/ATTAleckSlab_Web/EOT/ATTAleckSlab_W_Rg.eot');
+  src: url('../fonts/ATTAleckSlab_Web/EOT/ATTAleckSlab_W_Rg.eot?#iefix') format('embedded-opentype'), url('../fonts/ATTAleckSlab_Web/WOFF2/ATTAleckSlab_W_Rg.woff2') format('woff'), url('../fonts/ATTAleckSlab_Web/WOFF/ATTAleckSlab_W_Rg.woff') format('woff'), url('../fonts/ATTAleckSlab_Web/TTF/ATTAleckSlab_W_Rg.ttf') format('truetype'), url('../fonts/ATTAleckSlab_Web/SVG/ATTAleckSlab_W_Rg.svg#icon') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+

@@ -1,0 +1,19 @@
+.tooltip-inner {
+  background-color: $default-element-bg;
+}
+
+.tooltip.top .tooltip-arrow {
+  border-top-color: $default-element-bg;
+}
+
+.tooltip.right .tooltip-arrow {
+  border-right-color: $default-element-bg;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: $default-element-bg;
+}
+
+.tooltip.left .tooltip-arrow {
+  border-left-color: $default-element-bg;
+}

@@ -1,0 +1,602 @@
+.list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  line-height: 24px;
+}
+
+.list h4 {
+  line-height: 22px;
+}
+
+.list .tile {
+  position: relative;
+  display: table;
+  width: 100%;
+  min-height: 48px;
+}
+
+.list .tile > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.list .tile > a:hover {
+  color: #286090;
+}
+
+.list .tile .tile-content {
+  display: table-cell;
+  padding-left: 0px;
+  /* was 16px */
+  text-decoration: none;
+}
+
+.list .tile .tile-content:last-child {
+  padding-right: 16px;
+}
+
+.list .tile .tile-content > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.list .tile > .btn {
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 56px;
+  width: 56px;
+  text-align: center;
+}
+
+.list .tile > .btn .fa,
+.list .tile > .btn .md,
+.list .tile > .btn .glyphicon {
+  width: 24px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.list .tile .tile-icon {
+  min-width: 56px;
+  width: 56px;
+  padding: 8px 0;
+  text-align: right;
+  margin-left: 14px;
+  /* shawn */
+  margin-top: 5px;
+  /* shawn */
+}
+
+.list .tile .tile-icon:first-child {
+  text-align: left;
+}
+
+.list .tile .tile-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.list .tile .tile-icon .fa,
+.list .tile .tile-icon .md,
+.list .tile .tile-icon .glyphicon {
+  width: 24px;
+  margin-top: 4px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.list .tile .tile-text {
+  padding: 12px 0;
+  font-size: 18px;
+  /* was 16px */
+  width: 100%;
+}
+
+.list .tile .tile-text small {
+  display: block;
+  font-size: 13px;
+  /* was 14px */
+  opacity: 0.6;
+  line-height: 20px;
+}
+
+.list .tile .tile-text small span {
+  opacity: 1;
+}
+
+.list .tile .checkbox-styled:not(ie8),
+.list .tile .radio-styled:not(ie8) {
+  display: table-cell;
+  padding: 0;
+}
+
+.list .tile .checkbox-styled:not(ie8) label,
+.list .tile .radio-styled:not(ie8) label {
+  display: block;
+  padding-left: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.list .tile .checkbox-styled:not(ie8):last-child label,
+.list .tile .radio-styled:not(ie8):last-child label {
+  padding-right: 16px;
+}
+
+.list .tile .checkbox-styled:not(ie8) input ~ span,
+.list .tile .radio-styled:not(ie8) input ~ span {
+  padding-left: 54px;
+}
+
+.list .tile .ink-reaction .ink {
+  width: 600px;
+  height: 600px;
+  margin-left: -300px;
+  margin-top: -300px;
+  background-color: rgba(83, 88, 88, 0.15);
+}
+
+.list li.divider-full-bleed,
+.list li.divider-inset {
+  position: relative;
+}
+
+.list li.divider-full-bleed:after,
+.list li.divider-inset:after,
+.list.divider-full-bleed li:after,
+.list.divider-inset li:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: block;
+  height: 1px;
+  background: rgba(150, 156, 156, 0.3);
+}
+
+.list li.divider-full-bleed:after,
+.list.divider-full-bleed li:after {
+  left: 0;
+}
+
+.list li.divider-inset:after,
+.list.divider-inset li:after {
+  left: 72px;
+}
+
+.list-group .fa,
+.list-group .md,
+.list-group .glyphicon {
+  margin-right: 5px;
+}
+
+.list-group .btn[class^="btn-radio"],
+.list-group .btn[class^="btn-checkbox"],
+.list-group .btn[class*=" btn-radio"],
+.list-group .btn[class*=" btn-checkbox"] {
+  padding: 0;
+}
+
+.list-group-item {
+  color: #313534;
+}
+
+.list-group-item.focus,
+.list-group-item.focus:hover,
+.list-group-item.focus:focus {
+  background-color: #f2f3f3;
+}
+
+.list-group-item.focus .list-group-item-heading,
+.list-group-item.focus:hover .list-group-item-heading,
+.list-group-item.focus:focus .list-group-item-heading {
+  color: inherit;
+}
+
+.list-group-item.focus .list-group-item-text,
+.list-group-item.focus:hover .list-group-item-text,
+.list-group-item.focus:focus .list-group-item-text {
+  opacity: .75;
+}
+
+.card-body .list-group:first-child:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.list-email {
+  margin-bottom: 20px !important;
+}
+
+.list-email a {
+  border-left: none;
+  border-right: none;
+  padding: 20px 20px 20px 40px;
+}
+
+.list-email a:first-child {
+  border-top: none;
+}
+
+.list-email h2,
+.list-email h3,
+.list-email h4,
+.list-email h5,
+.list-email h6 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.list-email p {
+  /* color: #a3a8a8; */
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+
+.list-tags .btn {
+  margin-bottom: 3px;
+}
+
+.list-comments {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-comments > li {
+  margin-bottom: 20px;
+}
+
+.list-comments > li ul {
+  padding-top: 10px;
+  padding-left: 60px;
+  list-style: none;
+  border-left: 1px solid #d9d9d9;
+}
+
+.list-comments > li ul li {
+  padding-top: 10px;
+}
+
+.list-comments .card {
+  margin: 0;
+}
+
+.list-comments .comment-title {
+  margin: 0 50px 7px 0;
+}
+
+.list-comments .comment-title small {
+  font-size: 11px;
+  margin-left: 7px;
+}
+
+.list-comments .comment-avatar {
+  position: relative;
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 20px 0 0 20px;
+  text-align: center;
+  border: 1px solid #d9d9d9;
+  border-radius: 999px;
+}
+
+.list-comments .comment-avatar img {
+  width: 100%;
+}
+
+.list-comments .comment-avatar .fa,
+.list-comments .comment-avatar .md {
+  line-height: 60px;
+  font-size: 28px;
+}
+
+.list-comments .comment-avatar .glyphicon {
+  line-height: 52px;
+  font-size: 20px;
+}
+
+.list-comments .card-body {
+  margin-left: 80px;
+}
+
+.list-chats {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-chats .chat {
+  position: relative;
+  min-height: 40px;
+  margin: 16px 0 0 0;
+  padding: 0 52px;
+  text-align: right;
+}
+
+.list-chats .chat:before,
+.list-chats .chat:after {
+  content: " ";
+  display: table;
+}
+
+.list-chats .chat:after {
+  clear: both;
+}
+
+.list-chats .chat-avatar {
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  text-align: center;
+  border-radius: 999px;
+}
+
+.list-chats .chat-avatar img {
+  width: 100%;
+}
+
+.list-chats .chat-avatar .fa,
+.list-chats .chat-avatar .md {
+  line-height: 40px;
+  font-size: 18px;
+}
+
+.list-chats .chat-avatar .glyphicon {
+  line-height: 32px;
+  font-size: 16px;
+}
+
+.list-chats .chat-body {
+  position: relative;
+  display: inline-block;
+  float: right;
+  clear: both;
+  padding: 12px;
+  margin-bottom: 2px;
+  text-align: left;
+  color: #313534;
+  background: #ffffff;
+}
+
+.list-chats .chat-body small {
+  display: block;
+  margin-bottom: -4px;
+  opacity: 0.7;
+}
+
+.list-chats .chat-avatar + .chat-body:after {
+  position: absolute;
+  content: '';
+  z-index: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  top: 0;
+  right: -12px;
+  border-width: 0 0 12px 12px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.list-chats .chat-left .chat {
+  text-align: left;
+}
+
+.list-chats .chat-left .chat-avatar {
+  left: 0;
+  right: auto;
+}
+
+.list-chats .chat-left .chat-body {
+  float: left;
+  background-color: #0aa89e;
+  color: #ffffff;
+}
+
+.list-chats .chat-left .chat-avatar + .chat-body:after {
+  top: 0;
+  left: -12px;
+  border-width: 0 12px 12px 0;
+  border-color: transparent #0aa89e transparent transparent;
+}
+
+.list-results {
+  margin-bottom: 24px;
+  margin-top: 1px;
+  border-left: 1px solid #f2f3f3;
+}
+
+.list-results:before,
+.list-results:after {
+  content: " ";
+  display: table;
+}
+
+.list-results:after {
+  clear: both;
+}
+
+.list-results > div {
+  padding: 20px 10px;
+  margin-top: -1px;
+  border-top: 1px solid #f2f3f3;
+  border-right: 1px solid #f2f3f3;
+  border-bottom: 1px solid #f2f3f3;
+  background: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.list-results > div:hover {
+  background: #f2f3f3;
+}
+
+.list-results > div img {
+  margin-right: 10px;
+}
+
+.list-results.list-results-underlined {
+  border-left: none;
+}
+
+.list-results.list-results-underlined > div {
+  padding: 20px 0;
+  border-right: none;
+  border-top: none;
+}
+
+.tco-list-view .tile .tile-text {
+  /* [disabled] padding: 12px 8px; */
+  padding-left: 80px;
+  /* was 20px */
+  padding-right: 20px;
+}
+
+.tco-list-view .tile .cadie-alert {
+  padding-left: 20px !important;
+  padding-right: 20px;
+}
+
+.tco-list-view .tile-text h4 {
+  font-size: 16px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.tco-list-view .tile-text p {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.tco-list-view .tile-icon {
+  float: left;
+  /* was float right */
+  padding: 9px 7px;
+  outline: none;
+}
+
+.tco-list-view .tile .tile-icon .fa {
+  color: #ffffff;
+  /* was #3aa5dc */
+}
+
+ /*.tco-list-view .tile .tile-icon .btn-circle-floating:hover {
+ background-color: #e5e5e6; 
+}*/
+.tco-list .tile .tile-text {
+  font-size: 14px;
+  padding: 12px 8px;
+}
+
+p.no-bookmarks {
+  padding: 20px;
+}
+
+.list-tags .btn {
+  margin-bottom: 3px;
+}
+
+/* full width no border list buttons */
+.no-radius:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.no-radius:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+}
+
+li.divider-full-bleed {
+  position: relative;
+}
+
+li.divider-full-bleed:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  right: 0;
+  background: rgba(150, 156, 156, 0.3);
+}
+
+.multilevel li {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  list-style-position: inside;
+  padding-left: 16px;
+}
+
+/* the following is a circle bullet */
+ul.circle, ul li li {
+  list-style-type: circle;
+  /*  list-style-position: inside; */
+}
+
+/* the following is a disk bullet */
+ul.disc {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+/* the following is a square bullet */
+ul.square, ul li li li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+/* the following is a decimal 1. 2. 3. */
+ol.d {
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding-left: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  line-height: 22px;
+}
+
+/* the following is a decimal leading zero 01. 02. 03. */
+ol.dl0 {
+  list-style-type: decimal-leading-zero;
+  list-style-position: inside;
+}
+
+/* the following is a lower aplha a. b. c. */
+ol.la, ol ol li {
+  list-style-type: lower-alpha;
+  list-style-position: inside;
+}
+
+/* the following is a lower roman i. ii. iii. */
+ol.lr, ol ol ol li {
+  list-style-type: lower-roman;
+}
+
+/* the following is a upper apha A. B. C. */
+ol.ua {
+  list-style-type: upper-alpha;
+  list-style-position: inside;
+}
+
+/* the following is a upper roman I. II. III. */
+ol.ur {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+
+/* the following is just an indent */
+ol.none {
+  list-style-type: none;
+}
+
+/* the following is just an inherit */
+ol.inherit {
+  list-style-type: inherit;
+}

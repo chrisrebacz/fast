@@ -1,0 +1,96 @@
+.radio-styled {
+  position: relative;
+  margin-top: 0;
+}
+
+.radio-styled input ~ label {
+  position: relative;
+  padding-left: 30px;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: text-top;
+}
+
+.radio-styled input ~ label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #afafac;
+  border-radius: 50%;
+  -webkit-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.radio-styled input[type="radio"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.radio-styled input[type="radio"]:checked ~ label:before {
+  border-color: #1a78c2;
+  background-color: #3aa5dc;
+}
+
+.dock-form-radio-control .gfield_radio {
+  padding-left: 0;
+}
+
+.checkbox-styled {
+  position: relative;
+  margin-top: 0;
+}
+
+.checkbox-styled input ~ label {
+  position: relative;
+  padding-left: 30px;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: text-top;
+}
+
+.checkbox-styled input ~ label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #afafac;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.checkbox-styled input[type="checkbox"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.checkbox-styled input:checked ~ label:before {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: 10px;
+  border-color: #3aa5dc;
+  border-top-style: none;
+  border-right-style: none;
+}
+
+.dock-form-control-text .form-control, .dock-form-control-textarea .form-control {
+  border-radius: 0;
+  border: 1px solid #afafac;
+  box-shadow: none;
+  outline: none;
+}
+
+.dock-form-control-text .form-control:focus, .dock-form-control-textarea .form-control:focus {
+  border-color: #3aa5dc;
+  border-width: 2px;
+}

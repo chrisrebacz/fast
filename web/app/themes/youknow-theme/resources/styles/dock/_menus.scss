@@ -1,0 +1,22 @@
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #3aa5dc;
+}
+
+.navbar-logout {
+  float: right;
+  padding-right: 60px;
+  font-size: 14px;
+  color: #FFF;
+  padding-top: 15px;
+}
+
+.navbar-logout:active {
+  color: #FFF;
+}
+
+.navbar-logout:hover {
+  color: #D5D5D5;
+  text-decoration: none;
+}

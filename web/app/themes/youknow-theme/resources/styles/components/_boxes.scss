@@ -1,0 +1,67 @@
+.dln-box {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+  box-shadow: $md-shadow-main;
+}
+
+.dln-box.border-bottom {
+  border-bottom: none !important;
+}
+
+.dln-box-title, .dln-box-content {
+  border-style: none;
+}
+
+.dln-box-title h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.dln-box-title, 
+.dln-box-content {
+    border-width: 1px;
+}
+
+// .dln-box-content:last-child {
+//     border-style: solid solid solid solid;
+// }
+
+
+.dln-box-content h1, .dln-box-content h2, .dln-box-content h3, .dln-box-content h4, .dln-box-content h5,
+.dln-box-title h1, .dln-box-title h2, .dln-box-title h3, .dln-box-title h4, .dln-box-title h5 {
+  margin-top: 5px;
+}
+
+.dln-box-content.text-box {
+  padding-bottom: 0;
+  padding-top: 15px;
+}
+
+.dln-box-content .well {
+    margin-bottom: 1em;
+}
+
+.dln-box-content .well:last-child {
+    margin-bottom: 0.2em;
+}
+
+.dln-box-content .well h3 {
+    margin-bottom: 0.2em;
+    margin-top: 1em;
+}
+
+
+.dln-box-content .well h3:first-child {
+    margin-top: 0.2em;
+}
+
+
+@media (max-width: 768px) {
+    .dln-box-tools {
+      float: none;
+      text-align: right;
+      display: block;
+    }
+}

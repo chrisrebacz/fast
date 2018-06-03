@@ -1,0 +1,155 @@
+.bookmarks-list-container .lighthouse_bookmark {
+  position: relative;
+}
+
+.bookmarks-list-container {
+  padding-top: 20px;
+}
+
+.bookmarks-list-container .panel-heading {
+  position: relative;
+}
+
+.bookmarks-list-container .editControlsContainer {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+}
+
+.bookmarks-list-container .panel-edit-button {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 4px 12px;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.bookmarks-list-container .panel-edit-button:hover {
+  background-color: #fff;
+  color: #8cc152;
+}
+
+.bookmarks-list-container .lighthouse_bookmark_link {
+  display: block;
+}
+
+.bookmarks-list-container .no-bookmarks {
+  display: block;
+  padding: 15px;
+  margin-left: 0;
+}
+
+.lighthouse-bookmarks-list {
+  list-style: none;
+  padding-top: 14px;
+  padding-bottom: 1px;
+  padding-right: 10px;
+}
+
+.lighthouse_bookmark {
+  position: relative;
+  margin-left: 0;
+  padding: 15px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.lighthouse_bookmark:hover {
+  background-color: #e9e9e9;
+}
+
+.lighthouse_bookmark:last-child {
+  border-bottom: none;
+}
+
+.bookmarks-list-container .lighthouse_bookmark_link {
+  display: block;
+  padding-right: 60px;
+  color: #373a41;
+}
+
+.bookmarks-list-container .lighthouse_del_bookmark {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  background-color: #555;
+  color: #fff;
+  font-weight: bold;
+  padding: 4px 8px;
+  display: none;
+}
+
+.single-bookmark-container {
+  margin-bottom: 30px;
+}
+
+.bookmarks-list-container .lighthouse_del_bookmark:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.single-bookmark-container {
+  width: 100%;
+  margin-top: 0px;
+  /* was 60px */
+}
+
+.single-bookmark-container .lighthouse_add_bookmark {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 13px;
+  border: 2px solid #8cc152;
+  background-color: #8cc152;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.single-bookmark-container .lighthouse_add_bookmark:hover {
+  text-decoration: none;
+  background-color: #7faf4b;
+  color: #fff;
+}
+
+.single-bookmark-container .lighthouse_del_bookmark {
+  border: 2px solid #555;
+  color: #555;
+  padding: 13px 32px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.single-bookmark-container .lighthouse_del_bookmark:hover {
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+}
+
+.single-bookmark-container .lighthouse_del_bookmark:before {
+  content: "This article is bookmarked";
+  display: block;
+  color: #555;
+  text-align: center;
+  position: absolute;
+  top: -28px;
+  left: 0;
+  right: 0;
+}
+
+.bookmark-heading {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.bookmarks-no-padding {
+  padding: 0px;
+  margin-bottom: 3px;
+}

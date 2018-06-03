@@ -1,0 +1,238 @@
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.428;
+  color: inherit;
+}
+
+h2 {
+  font-size: 22px;
+  color: #067ab4;
+}
+
+h3 {
+  font-size: 17px;
+  color: #067ab4;
+}
+
+h1 > strong, h2 > strong, h3 > strong, h4 > strong, h5 > strong, h6 > strong {
+  font-weight: 700;
+}
+
+h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+.text-xs {
+  font-size: 75%;
+}
+
+.text-sm {
+  font-size: 85%;
+}
+
+.text-lg {
+  font-size: 125%;
+}
+
+.text-xl {
+  font-size: 180%;
+}
+
+.text-xxl {
+  font-size: 225%;
+}
+
+.text-xxxl {
+  font-size: 330%;
+}
+
+.text-xxxxl {
+  font-size: 500%;
+}
+
+p {
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+
+.text-columns-2 {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 24px;
+  -moz-column-gap: 24px;
+  column-gap: 24px;
+}
+
+.text-columns-3 {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 24px;
+  -moz-column-gap: 24px;
+  column-gap: 24px;
+}
+
+.text-columns-4 {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 24px;
+  -moz-column-gap: 24px;
+  column-gap: 24px;
+}
+
+.text-columns-sm {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 24px;
+  -moz-column-gap: 24px;
+  column-gap: 24px;
+}
+
+.text-columns {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 24px;
+  -moz-column-gap: 24px;
+  column-gap: 24px;
+}
+
+.text-columns-lg {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 24px;
+  -moz-column-gap: 24px;
+  column-gap: 24px;
+}
+
+@media (max-width: 992px) {
+  .text-columns-sm {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+  }
+
+  .text-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+  }
+
+  .text-columns-lg {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+  }
+}
+@media (max-width: 769px) {
+  .text-columns-sm {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+  }
+
+  .text-columns {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+  }
+
+  .text-columns-lg {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+  }
+}
+@media (max-width: 480px) {
+  .text-columns-sm {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+  }
+
+  .text-columns {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+  }
+
+  .text-columns-lg {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+  }
+}
+
+.line-height-normal {
+  line-height: 1.846153846;
+}
+
+.line-height-lg {
+  line-height: 2.146153846;
+}
+
+.line-height-xl {
+  line-height: 2.396153846;
+}
+
+.line-height-xxl {
+  line-height: 2.746153846;
+}
+
+.text-caption {
+  display: block;
+  margin-bottom: 29px;
+  font-size: 12px;
+}
+
+.card ~ .text-caption, .panel-group ~ .text-caption {
+  margin-top: -15px;
+}
+
+.no-linebreak {
+  white-space: nowrap;
+}
+
+.text-shadow {
+  text-shadow: 0 1px 2px #000000;
+}
+
+blockquote small {
+  color: inherit;
+  opacity: .7;
+}
+
